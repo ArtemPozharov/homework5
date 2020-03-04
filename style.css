@@ -1,0 +1,158 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: gold;
+}
+.logo img {
+  width: 300px;
+}
+.logo {
+  margin: 20px;
+}
+.menu ul {
+  list-style: none;
+  margin: 0 auto;
+}
+
+.menu ul>li {
+  display: inline;
+  margin: 20px;
+  text-decoration: none;
+}
+.menu ul>li>a {
+  text-decoration: none;
+  color: black;
+}
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  min-height: calc(100vh - 70px);
+}
+.aside1 {
+  background: plum;
+  min-width: 210px;
+  text-align: center;
+}
+.lorem {
+  margin: 20px;
+  min-width: calc(100% - 500px);
+  
+}
+.aside2 {
+  background: lightsteelblue;
+  min-width: 210px;
+  text-align: center;
+}
+.footer {
+  background: green;
+  display: flex;
+  text-align: center;
+  
+}
+* {
+  box-sizing: border-box;
+}
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 700px;
+  margin: 0 auto;
+}
+.itemmini {
+  width: calc(33% - 20px);
+  margin: 10px;
+  padding: 10px;
+  border: solid 2px grey;
+  border-radius: 30px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+.wrapper img {
+  float: bottom;
+  width: 100px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%;
+  border: solid 10px pink;
+}
+.textmini {
+  text-align: center;
+  flex-grow: 1;
+}
+main p{
+  text-align: center;
+}
+.button {
+    width: 100px;
+    height: 30px;
+    padding-top: 5px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    background-color: darkmagenta;
+    border-radius: 15px;
+    color: white;
+    margin: 0 auto;
+    
+}
+.holder {
+  display: flex;
+  flex-wrap: wrap;
+  width: 500px;
+  border: 3px solid;
+  border-radius: 20px 20px 0 0;
+  overflow: hidden;
+}
+.item {
+  height: 50px;
+  padding-top: 15px;
+  text-align: center;
+}
+.item:nth-child(1){
+  order: 1;
+  background: red;
+  width: 50%;
+}
+.item:nth-child(2){
+  order: 4;
+  background: blue;
+  width: 33.33%;
+}
+.item:nth-child(3){
+  order: 3;
+  background: violet;
+  width: 33.33%;
+}
+.item:nth-child(4){
+  order: 5;
+  background: green;
+  width: 33.33%;
+}
+.item:nth-child(5){
+  order: 2;
+  background: orange;
+  width: 50%;
+}
+body {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+.ourwork, .footer, .holder {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
+.ourwork {
+    text-transform: uppercase;   
+}
